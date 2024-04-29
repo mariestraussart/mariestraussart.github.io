@@ -1,0 +1,83 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1.5px solid;
+    height: fit-content;
+    top: 0;
+    position: sticky;
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+    p{
+        float: left;
+        margin-left: 10px;
+        font-family: Montserrat;
+    }
+}
+
+.hero {
+   height: 100vh;
+   position: relative;
+}
+
+.hero {
+    .item{
+    position: absolute;
+    bottom: 20vh;
+    right: 10vh;
+    }
+}
+.about {
+   
+    padding: 20px;
+    margin: 40px;
+    .item{
+        display: flex;
+        flex-direction: row;
+        img {
+            display: block;
+            object-fit: cover;
+            width: 400px;
+            height: 100%;
+            margin: 20px;
+        }
+    }
+    .icon{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+
+.workflow {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .item {
+        border: 1.5px solid;
+        margin: 20px;
+        width: 40%;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        h3, p{
+            margin: 10px;
+        }
+    }
+}
